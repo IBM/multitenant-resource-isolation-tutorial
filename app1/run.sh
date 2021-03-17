@@ -1,5 +1,5 @@
 for i in {1..5}
 do
-   curl "$1app1/bubblesort"
+   curl "$1/app1/bubblesort"
    echo "\n"
 done
