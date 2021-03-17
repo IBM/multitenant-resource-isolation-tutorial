@@ -15,7 +15,7 @@ components:
     container:
         # In the original upstream of this devfile, the image used is openliberty/application-stack:<x.y.z>, which is built from the repository: https://github.com/OpenLiberty/application-stack
       image: openliberty/application-stack:0.4
-      memoryLimit: 1512Mi
+      memoryLimit: 512Mi
       mountSources: true
       endpoints:
         - exposure: public
